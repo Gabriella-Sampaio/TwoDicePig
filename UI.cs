@@ -102,7 +102,7 @@ public class UI //User Interface - Frontend; Pode alterar a interface sem altera
         Console.Write("Rolagens => ");
         UI.Aguarda();
         ExibeValorDado(dado1);
-        Console.Write(" e");
+        Console.Write(" e ");
         UI.Aguarda();
         ExibeValorDado(dado2);
         Console.WriteLine();
@@ -225,7 +225,7 @@ public class UI //User Interface - Frontend; Pode alterar a interface sem altera
 
         Console.ResetColor();
     }
-    public static void ExibeVitoriaKevin()
+    public static void ExibeVitoriaPig()
     {
         Console.WriteLine("--- Derrota :( Olha a carinha de felicidade do Kevin! ---");
         Console.ForegroundColor = ConsoleColor.Red;
